@@ -57,4 +57,4 @@ float LinearizeDepth(float depth){
     float z = depth * 2.0 - 1.0f;
     return (2.0 * near * far)/(far + near - z*(far-near));
 }
-//glFragCoordÎªglslÄÚ½¨±äÁ¿£¬ÆäzÖµ¾ÍÊÇÆ¬¶ÎµÄÉî¶ÈÖµ
+//glFragCoordä¸ºglslå†…å»ºå˜é‡ï¼Œå…¶zå€¼å°±æ˜¯ç‰‡æ®µçš„æ·±åº¦å€¼
